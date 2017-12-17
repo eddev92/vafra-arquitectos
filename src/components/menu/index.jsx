@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import './index.css';
 
-export class Menu extends Component {
+export class MenuComponent extends Component {
   render() {
     return (
 		<header>
@@ -10,32 +11,32 @@ export class Menu extends Component {
 				<div className="container clearfix">
 
 					<div className="logo pull-left">
-						<a href="index.html" ><span className="b1">w</span><span className="b2">h</span><span className="b3">i</span><span className="b4">t</span><span className="b5">e</span></a>
+						<img src="images/logo.png" alt=""/>
 					</div>
 
-					<div id="search-form" className="pull-right">
+					{/*<div id="search-form" className="pull-right">
 						<form method="get" action="#">
 							<input type="text" name="Search" value="Search" onFocus="if (this.value == 'Search') this.value = '';" onBlur="if (this.value == '') this.value = 'Search';" />
 						</form>
-					</div>
+					</div>*/}
 
 					<div className="pull-right">
 						<nav className="navmenu center">
 							<ul>
-								<li className="first active scroll_btn"><a href="#home" >Home</a></li>
-								<li className="scroll_btn"><a href="#about" >About Us</a></li>
-								<li className="scroll_btn"><a href="#projects" >Projects</a></li>
-								<li className="scroll_btn"><a href="#team" >Team</a></li>
-								<li className="scroll_btn"><a href="#news" >News</a></li>
-								<li className="scroll_btn last"><a href="#contacts" >Contacts</a></li>
-								<li className="sub-menu">
+								<li className="first active scroll_btn"><a href="#home" >Inicio</a></li>
+								<li className="scroll_btn"><a href="#about" >Nosotros</a></li>
+								<li className="scroll_btn"><a href="#projects" >Servicios</a></li>
+								<li className="scroll_btn"><a href="#team" >Galería</a></li>
+								{/*<li className="scroll_btn"><a href="#news" >News</a></li>*/}
+								<li className="scroll_btn last"><a href="#contacts" >Contactos</a></li>
+								{/*<li className="sub-menu">
 									<a href="javascript:void(0);" >Pages</a>
 									<ul>
 										<li><a href="blog.html" >Blog</a></li>
 										<li><a href="blog-post.html" >Blog Post</a></li>
 										<li><a href="portfolio-post.html" >Portfolio Single Work</a></li>
 									</ul>
-								</li>
+								</li>*/}
 							</ul>
 						</nav>
 					</div>

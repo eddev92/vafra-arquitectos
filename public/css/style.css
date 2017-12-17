@@ -480,10 +480,15 @@ header {
 .cleancode_block p.title b {font-weight:500;}
 
 .cleancode_block span {
-	font-weight:300;
-	line-height:34px;
-	font-size:26px;
-	color:#999;
+    font-weight: 300;
+    font-size: 26px;
+    border-radius: 6px;
+    font-size: 26px;
+    color: black;
+    display: block;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
 }
 .cleancode_block .tab-pane {
 	display:block;
@@ -518,7 +523,7 @@ header {
 .cleancode_block .nav-tabs li a {
 	width:170px;
 	height:170px;
-	margin:0;
+	margin:auto;
 	padding:54px 0 0;
 	text-align:center;
 	border:0 !important;
@@ -532,7 +537,7 @@ header {
 	height:60px;
 	margin:0 auto;
 	background-repeat:no-repeat;
-	background-position:0 -60px;
+	background-position:0 -121px;
 	background-size:100% auto;
 	-webkit-background-size:100% auto;
 	transition: transform 0.2s ease-in-out; 
