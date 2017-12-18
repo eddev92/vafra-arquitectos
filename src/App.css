@@ -26,9 +26,6 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-<<<<<<< HEAD
 .animated{
   opacity: 1 !important;
 }
-=======
->>>>>>> 68e8f936332ca195cea571ad7e0b9bbe904d1908
