@@ -447,7 +447,7 @@ header {
 
 .services_item span {
 	display:block;
-	padding-bottom:9px;
+    padding: 0 10px 0;
 	font-weight:300;
 	font-size:14px;
 	color:#666;
@@ -1205,7 +1205,7 @@ input[type="text"] {
 	font-style:normal;
 	border-radius: 0;	
 	background: none;
-	border: 2px solid #242424;
+	/*border: 2px solid #242424;*/
 	box-shadow: none;
 	transition: border-color 0.3s ease-in-out; 
 	-webkit-transition: border-color 0.3s ease-in-out;
@@ -1247,7 +1247,7 @@ input[type="color"]:focus {
 	cursor:pointer;
 	margin: 0 7px 10px 0;
 	padding:13px 30px;
-	border: 2px solid #242424;
+	/*border: 2px solid #242424;*/
 	border-radius: 0;
 	box-shadow: 0;
 	text-shadow:none;

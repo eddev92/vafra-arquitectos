@@ -26,7 +26,7 @@ export default class HomeComponent extends Component {
                     </div>
                   </li>
                 </ul>
-                      <a name="P2" className="player" id="P2" data-property="{videoURL:'iUEek8PSt_I',containment:'.top_slider',autoPlay:true, mute:true, startAt:0, opacity:1}" />
+                      <a name="P2" className="player" id="P2" data-property="{videoURL:'iUEek8PSt_I',containment:'.top_slider',autoPlay:true, mute:true, startAt:0.1, opacity:1}" />
               </div>
             </section>
         );

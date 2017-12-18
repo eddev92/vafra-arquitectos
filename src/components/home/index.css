@@ -1,6 +1,11 @@
-.title4.captionDelay7.FromLeft{
+.top_slider .slide1 .flex_caption1 .title4,.top_slider .slide2 .flex_caption1 .title4, .top_slider .slide3 .flex_caption1 .title4 {
+    margin-bottom: 15px;
+    width: 680px;
+    font-weight: 300;
+    line-height: 34px;
     font-size: 1.5em;
     background-color: white;
     border-radius: 6px;
     padding: 10px;
+    box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.75);
 }
