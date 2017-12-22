@@ -9,19 +9,19 @@ export default class HomeComponent extends Component {
                 <ul className="slides">
                   <li className="slide1">
                     <div className="flex_caption1">
-                      <p className="title1 captionDelay2 FromTop">Diseña</p>
+                      <p className="title1 captionDelay2 FromTop">DISEÑA</p>
                       <p className="title4 captionDelay7 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
                     </div>
                   </li>
                   <li className="slide2">
                     <div className="flex_caption1">
-                      <p className="title1 captionDelay6 FromLeft">Proyecta</p>
+                      <p className="title1 captionDelay6 FromLeft">PROYECTA</p>
                       <p className="title4 captionDelay7 FromLeft">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
                     </div>
                   </li>
                   <li className="slide3">
                     <div className="flex_caption1">
-                      <p className="title1 captionDelay1 FromBottom">Construye</p>
+                      <p className="title1 captionDelay1 FromBottom">CONSTRUYE</p>
                       <p className="title4 captionDelay5 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
                     </div>
                   </li>

@@ -4,6 +4,9 @@ import {MenuComponent} from './components/menu';
 import HomeComponent from './components/home';
 import OurVafraComponent from './components/our';
 import GaleryComponent from './components/galery';
+import FooterComponent from './components/footer';
+import OurServicesComponent from './components/services';
+import SellsComponent from './components/sells';
 
 class App extends Component {
   render() {
@@ -12,7 +15,10 @@ class App extends Component {
        <MenuComponent />
        <HomeComponent />
        <OurVafraComponent />
+       <OurServicesComponent />
+       <SellsComponent />
        <GaleryComponent />
+       <FooterComponent />
       </div>
     );
   }

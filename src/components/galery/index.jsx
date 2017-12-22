@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 export default class GaleryComponent extends Component {
   render() {
     return (
-        <section id="projects" className="padbot20">
+        <section className="padbot20" id="gallery">
 			<div className="container">
-				<h2><b>Featured</b> Works</h2>
+				<h2><b>Galería</b> Proyectos</h2>
 			</div>
 			<div className="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
 				<div className="owl-demo owl-carousel projects_slider">
@@ -116,7 +116,7 @@ export default class GaleryComponent extends Component {
 				</div>
 			</div>
 
-			<div className="our_clients">
+			{/* <div className="our_clients">
 
 				<div className="container" data-appear-top-offset="-200" data-animated="fadeInUp">
 
@@ -141,7 +141,7 @@ export default class GaleryComponent extends Component {
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</section>
     )
   }

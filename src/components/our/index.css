@@ -1,0 +1,7 @@
+
+ul#myTab li a{
+    border: 3px solid white !important;
+}
+#myTabContent p {
+    color: black;
+}

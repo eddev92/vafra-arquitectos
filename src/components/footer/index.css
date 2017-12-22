@@ -1,0 +1,11 @@
+#footer{
+    background: black;
+    padding: 30px;
+}
+#footer p{
+    margin-bottom: 0;
+    padding: 0;
+}
+#footer h5{
+    color: white;
+}

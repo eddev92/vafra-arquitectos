@@ -20,7 +20,8 @@ export class MenuComponent extends Component {
 								<li className="first active scroll_btn"><a href="#home" >Inicio</a></li>
 								<li className="scroll_btn"><a href="#about" >Nosotros</a></li>
 								<li className="scroll_btn"><a href="#projects" >Servicios</a></li>
-								<li className="scroll_btn"><a href="#team" >Galería</a></li>
+								<li className="scroll_btn"><a href="#sells" >Ventas</a></li>
+								<li className="scroll_btn"><a href="#gallery" >Galería</a></li>
 								{/*<li className="scroll_btn"><a href="#news" >News</a></li>*/}
 								<li className="scroll_btn last"><a href="#contacts"  data-toggle="modal" data-target="#modal-contactos">Contactos</a></li>
 

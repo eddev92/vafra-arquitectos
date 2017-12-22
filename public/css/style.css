@@ -169,7 +169,7 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
 /* __________ Buttons __________ */
 .btn {
 	margin: 0;
-	padding: 24px 27px 22px;
+	padding: 24px 60px 22px;
 	border:2px solid #ccc;
 	border-radius: 0;
 	box-shadow: none;
@@ -630,6 +630,7 @@ header {
 .purpose_block .btn-active span {
 	position: relative;
 	display: inline-block;
+	width: 118px;
 	transition: all 0.3s ease-in-out; 
 	-webkit-transition: all 0.3s ease-in-out;
 }
@@ -1673,7 +1674,7 @@ input[type="color"]:focus {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-	.parallax, .cleancode_block, #team {background-attachment:scroll !important; background-size:100% auto !important; -webkit-background-size:100% auto !important;}
+	.parallax, .cleancode_block, #team {background-attachment:scroll !important;}
 	
 	
 	h2 {font-size:35px; line-height:35px;}
