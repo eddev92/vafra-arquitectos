@@ -15,14 +15,7 @@
 #contactos .md-form label.active{
     font-size: 1rem;
 }
-#modal-contactos .modal-header{
-        background: #121035;
-}
-#modal-contactos h5{
-        color: white;
-    font-weight: 700;
-    font-size: 1.6em;
-}
+
 #contactos .md-form{
     width: 50%;
     margin: 0 auto 25px;

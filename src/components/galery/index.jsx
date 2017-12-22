@@ -17,8 +17,8 @@ export default class GaleryComponent extends Component {
 							</div>
 							<div className="work_description">
 								<div className="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
+									<a href="portfolio-post.html" >Proyecto titulo</a>
+									<span>Distrito</span>
 								</div>
 							</div>
 						</div>
@@ -32,8 +32,8 @@ export default class GaleryComponent extends Component {
 							</div>
 							<div className="work_description">
 								<div className="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
+									<a href="portfolio-post.html" >Proyecto titulo</a>
+									<span>Distrito</span>
 								</div>
 							</div>
 						</div>
@@ -47,8 +47,8 @@ export default class GaleryComponent extends Component {
 							</div>
 							<div className="work_description">
 								<div className="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
+									<a href="portfolio-post.html" >Proyecto titulo</a>
+									<span>Distrito</span>
 								</div>
 							</div>
 						</div>
@@ -62,8 +62,8 @@ export default class GaleryComponent extends Component {
 							</div>
 							<div className="work_description">
 								<div className="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
+									<a href="portfolio-post.html" >Proyecto titulo</a>
+									<span>Distrito</span>
 								</div>
 							</div>
 						</div>
@@ -77,8 +77,8 @@ export default class GaleryComponent extends Component {
 							</div>
 							<div className="work_description">
 								<div className="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
+									<a href="portfolio-post.html" >Proyecto titulo</a>
+									<span>Distrito</span>
 								</div>
 							</div>
 						</div>
@@ -92,8 +92,8 @@ export default class GaleryComponent extends Component {
 							</div>
 							<div className="work_description">
 								<div className="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
+									<a href="portfolio-post.html" >Proyecto titulo</a>
+									<span>Distrito</span>
 								</div>
 							</div>
 						</div>
@@ -107,8 +107,8 @@ export default class GaleryComponent extends Component {
 							</div>
 							<div className="work_description">
 								<div className="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
+									<a href="portfolio-post.html" >Proyecto titulo</a>
+									<span>Distrito</span>
 								</div>
 							</div>
 						</div>

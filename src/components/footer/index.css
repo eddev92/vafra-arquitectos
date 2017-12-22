@@ -9,3 +9,12 @@
 #footer h5{
     color: white;
 }
+#boton-contactar-footer{
+    margin: 11px;
+    padding: 13px;
+    border: 1px solid white;
+    font-weight: 200;
+}
+.mails p, .copyright{
+    font-size: 1.2em;
+}

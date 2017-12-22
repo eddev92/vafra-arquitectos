@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './index.css';
+import ModalComponent from './../../tools/modal';
+import {ID_MODAL_CONTACTOS} from './../../tools/constants/constants';
+
 
 export default class FooterComponent extends Component {
     render() {
@@ -28,12 +31,12 @@ export default class FooterComponent extends Component {
                             
                         </div>
                         
-                        <div class="col-lg-6 col-md-6 col-sm-6 foot_about_block">
+                        <div class="col-lg-6 col-md-6 col-sm-6 foot_about_block mails">
                             <h4><b>Informes</b></h4>
                             <h5>Correos:</h5>
                             <p>palvarado.vafra@gmail.com</p>
                             <p>scandela.vafra@gmail.com</p>
-                            
+                            <a className="btn btn-active" id="boton-contactar-footer" data-toggle="modal" data-target={`#${ID_MODAL_CONTACTOS}`}><span data-hover="inmobiliarios">Contactarnos</span></a>
                         </div>
                         
                         <div class="respond_clear"></div>
@@ -41,10 +44,39 @@ export default class FooterComponent extends Component {
                     <div class="row copyright">
                         <div class="col-lg-12 text-center">
                         
-                         <p>Powered by<i class="fa fa-heart"></i><a href="http://designscrazed.org/" > E.Llanca</a></p>
+                         <p>Desarrollado por <i class="fa fa-heart"></i><a>[ E.Llanca ]</a></p>
                         </div>
                     
                     </div>
+                    <ModalComponent title="Venta de Inmobiliarios" id={ID_MODAL_CONTACTOS} top={true}>
+                    <form id="contactos">
+														<div className="md-form">
+																<i className="fa fa-envelope prefix grey-text"></i>
+																<input type="text" id="defaultForm-nombres" className="form-control"/>
+																<label htmlFor="defaultForm-nombres">Nombres y apellidos</label>
+														</div>
+														
+														<div className="md-form">
+																<i className="fa fa-envelope prefix grey-text"></i>
+																<input type="text" id="defaultForm-telefono" className="form-control"/>
+																<label htmlFor="defaultForm-telefono">Teléfonos</label>
+														</div>
+														
+														<div className="md-form">
+																<i className="fa fa-envelope prefix grey-text"></i>
+																<input type="text" id="defaultForm-correo" className="form-control"/>
+																<label htmlFor="defaultForm-correo">Correo electrónico</label>
+														</div>
+														<div className="md-form textarea">
+																<i className="fa fa-envelope prefix grey-text"></i>
+																			<textarea type="text" id="form8" class="md-textarea" style={{height: 60}}></textarea>
+																<label htmlFor="defaultForm-mensaje">Mensaje</label>
+														</div>
+														<div className="text-center">
+																<button className="btn btn-default" style={{background: '#121035'}}>Contactar</button>
+														</div>
+												</form>
+					</ModalComponent>
                 </div>
         );
     }

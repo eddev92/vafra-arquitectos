@@ -11,7 +11,7 @@ export default class OurVafraComponent extends Component {
 						<div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 margbot30">
 							<a className="services_item" href="javascript:void(0);" >
 								<p>Historia</p>
-								<span>Quality and very comfortable design, does not hurt the eyes and pleasant to use.</span>
+								<span>Historia VAFRA</span>
 							</a>
 						</div>
 						<div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 margbot30">

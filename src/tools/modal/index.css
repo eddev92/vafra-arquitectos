@@ -1,0 +1,11 @@
+.modal-header{
+    background: #121035;
+}
+.modal-content h5{
+    color: white;
+font-weight: 700;
+font-size: 1.6em;
+}
+.mt80{
+    margin-top: 80px;
+}

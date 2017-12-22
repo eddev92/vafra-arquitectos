@@ -7,6 +7,7 @@ import GaleryComponent from './components/galery';
 import FooterComponent from './components/footer';
 import OurServicesComponent from './components/services';
 import SellsComponent from './components/sells';
+import OurTeamComponent from './components/our-team';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
        <OurServicesComponent />
        <SellsComponent />
        <GaleryComponent />
+       {/* <OurTeamComponent /> */}
        <FooterComponent />
       </div>
     );

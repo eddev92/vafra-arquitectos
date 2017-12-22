@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './index.css';
-
+import ModalComponent from './../../tools/modal';
+import {ID_MODAL_CONTACTOS} from './../../tools/constants/constants';
 export class MenuComponent extends Component {
   render() {
     return (
@@ -23,54 +24,38 @@ export class MenuComponent extends Component {
 								<li className="scroll_btn"><a href="#sells" >Ventas</a></li>
 								<li className="scroll_btn"><a href="#gallery" >Galería</a></li>
 								{/*<li className="scroll_btn"><a href="#news" >News</a></li>*/}
-								<li className="scroll_btn last"><a href="#contacts"  data-toggle="modal" data-target="#modal-contactos">Contactos</a></li>
+								<li className="scroll_btn last"><a href="#contacts" data-toggle="modal" data-target={`#${ID_MODAL_CONTACTOS}`}>Contactos</a></li>
 
+								<ModalComponent id={ID_MODAL_CONTACTOS} title="Contactos">
+								<form id="contactos">
+														<div className="md-form">
+																<i className="fa fa-envelope prefix grey-text"></i>
+																<input type="text" id="defaultForm-nombres" className="form-control"/>
+																<label htmlFor="defaultForm-nombres">Nombres y apellidos</label>
+														</div>
+														
+														<div className="md-form">
+																<i className="fa fa-envelope prefix grey-text"></i>
+																<input type="text" id="defaultForm-telefono" className="form-control"/>
+																<label htmlFor="defaultForm-telefono">Teléfonos</label>
+														</div>
+														
+														<div className="md-form">
+																<i className="fa fa-envelope prefix grey-text"></i>
+																<input type="text" id="defaultForm-correo" className="form-control"/>
+																<label htmlFor="defaultForm-correo">Correo electrónico</label>
+														</div>
+														<div className="md-form textarea">
+																<i className="fa fa-envelope prefix grey-text"></i>
+																			<textarea type="text" id="form8" class="md-textarea" style={{height: 60}}></textarea>
+																<label htmlFor="defaultForm-mensaje">Mensaje</label>
+														</div>
+														<div className="text-center">
+																<button className="btn btn-default" style={{background: '#121035'}}>Contactar</button>
+														</div>
+												</form>
+								</ModalComponent>
 
-<div className="modal fade" id="modal-contactos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div className="modal-dialog" role="document">
-        <div className="modal-content">
-            <div className="modal-header">
-                <h5 className="modal-title" id="exampleModalLabel">CONTACTOS</h5>
-                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div className="modal-body">
-					<form id="contactos">
-						<div className="md-form">
-								<i className="fa fa-envelope prefix grey-text"></i>
-								<input type="text" id="defaultForm-nombres" className="form-control"/>
-								<label htmlFor="defaultForm-nombres">Nombres y apellidos</label>
-						</div>
-						
-						<div className="md-form">
-								<i className="fa fa-envelope prefix grey-text"></i>
-								<input type="text" id="defaultForm-telefono" className="form-control"/>
-								<label htmlFor="defaultForm-telefono">Teléfonos</label>
-						</div>
-						
-						<div className="md-form">
-								<i className="fa fa-envelope prefix grey-text"></i>
-								<input type="text" id="defaultForm-correo" className="form-control"/>
-								<label htmlFor="defaultForm-correo">Correo electrónico</label>
-						</div>
-						<div className="md-form textarea">
-								<i className="fa fa-envelope prefix grey-text"></i>
-											<textarea type="text" id="form8" class="md-textarea" style={{height: 60}}></textarea>
-								<label htmlFor="defaultForm-mensaje">Mensaje</label>
-						</div>
-						<div className="text-center">
-								<button className="btn btn-default">Contactar</button>
-						</div>
-				</form>
-            </div>
-            {/*<div className="modal-footer">
-                <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" className="btn btn-primary">Save changes</button>
-            </div>*/}
-        </div>
-    </div>
-</div>
 
 							</ul>
 						</nav>
