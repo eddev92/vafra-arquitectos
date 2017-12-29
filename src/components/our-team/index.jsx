@@ -6,7 +6,7 @@ export default class OurTeamComponent extends Component {
     return (
         <section id="team">
 			<div class="container">
-				<h2><b>Our</b> Team</h2>
+				<h2><b>Nuestro</b> Equipo</h2>
 
 				<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
 
@@ -15,12 +15,12 @@ export default class OurTeamComponent extends Component {
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
-									<img src="images/team/1.jpg" alt="" />
+									<img src="images/patricia.png" alt="" />
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
-										<p>Sarah Brown</p>
-										<span>Director</span>
+										<p>Patricia Alvarado Blas</p>
+										<span>Arquitecto</span>
 									</div>
 								</div>
 								<div class="crewman_social">
@@ -29,8 +29,41 @@ export default class OurTeamComponent extends Component {
 								</div>
 							</div>
 						</div>
-
 						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/annie.png" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p>Annie Pacheco Obando</p>
+										<span>Arquitecto</span>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
+									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team3.png" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p>Integrante 3</p>
+										<span>Arquitecto</span>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
+									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
+								</div>
+							</div>
+						</div>
+						{/* <div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
 									<img src="images/team/2.jpg" alt="" />
@@ -157,7 +190,7 @@ export default class OurTeamComponent extends Component {
 									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

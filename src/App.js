@@ -19,7 +19,7 @@ class App extends Component {
        <OurServicesComponent />
        <SellsComponent />
        <GaleryComponent />
-       {/* <OurTeamComponent /> */}
+       <OurTeamComponent />
        <FooterComponent />
       </div>
     );
