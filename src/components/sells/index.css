@@ -1,0 +1,13 @@
+.peach-gradient {
+    background: -webkit-linear-gradient(50deg,#ffd86f,#fc6262);
+    background: linear-gradient(40deg,#ffd86f,#fc6262);
+}
+.item1{
+    margin-bottom: 55px;
+}
+.item1 .peach-gradient{
+    width: 60%;
+    position: absolute;
+    margin: auto 90px;
+    margin-top: -20px;
+}

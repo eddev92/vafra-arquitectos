@@ -20,7 +20,106 @@ export default class SellsComponent extends Component {
 					</div>
 				</div>
 				<ModalComponent title="Venta de Inmobiliarios" id={ID_MODAL_VENTA} top={true}>
-			<h3>Seccion de venta de inmobiliarios</h3>
+				<ul class="nav nav-tabs nav-justified">
+					<li class="nav-item">
+						<a class="nav-link active" data-toggle="tab" href="#panel1" role="tab">Casa de Playa - Totoritas</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#panel2" role="tab">Residencial Tulipanes - Lima, Perú</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#panel3" role="tab">Multifamiliar Vafra - Lima, Perú</a>
+					</li>
+				</ul>
+				<div class="tab-content card">
+					<div class="tab-pane fade" id="panel1" role="tabPanel">
+						<br/>
+						<div className="totoritas">
+							<div className="item1" style={{marginTop: 30}}>
+								<div class="view gradient-card-header peach-gradient">
+									<h2 class="h2-responsive mb-2">Title of the news</h2>
+								</div>
+									<img src="images/playa-totoritas/portada.jpg" alt=""/>
+							</div>
+							<div className="item1">
+								<div class="view gradient-card-header peach-gradient">
+									<h2 class="h2-responsive mb-2">Title of the news</h2>
+								</div>
+									<img src="images/playa-totoritas/item2.jpg" alt=""/>
+							</div>
+							<div className="item1">
+								<div class="view gradient-card-header peach-gradient">
+									<h2 class="h2-responsive mb-2">Title of the news</h2>
+								</div>
+									<img src="images/playa-totoritas/item3.jpg" alt=""/>
+							</div>
+							<div className="item1">
+								<div class="view gradient-card-header peach-gradient">
+									<h2 class="h2-responsive mb-2">Title of the news</h2>
+								</div>
+									<img src="images/playa-totoritas/item4.jpg" alt=""/>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="panel2" role="tabPanel">
+						<br/>
+						<div className="totoritas">
+						<div className="item1" style={{marginTop: 30}}>
+								<div class="view gradient-card-header peach-gradient">
+									<h2 class="h2-responsive mb-2">Title of the news</h2>
+								</div>
+									<img src="images/playa-totoritas/portada.jpg" alt=""/>
+							</div>
+							<div className="item1">
+								<div class="view gradient-card-header peach-gradient">
+									<h2 class="h2-responsive mb-2">Title of the news</h2>
+								</div>
+									<img src="images/playa-totoritas/item2.jpg" alt=""/>
+							</div>
+							<div className="item1">
+								<div class="view gradient-card-header peach-gradient">
+									<h2 class="h2-responsive mb-2">Title of the news</h2>
+								</div>
+									<img src="images/playa-totoritas/item3.jpg" alt=""/>
+							</div>
+							<div className="item1">
+								<div class="view gradient-card-header peach-gradient">
+									<h2 class="h2-responsive mb-2">Title of the news</h2>
+								</div>
+									<img src="images/playa-totoritas/item4.jpg" alt=""/>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="panel3" role="tabPanel">
+						<br/>
+						<div className="residencial-vafra">
+							<div className="item1" style={{marginTop: 30}}>
+									<div class="view gradient-card-header peach-gradient">
+										<h2 class="h2-responsive mb-2">Title of the news</h2>
+									</div>
+										<img src="images/playa-totoritas/portada.jpg" alt=""/>
+									</div>
+									<div className="item1">
+										<div class="view gradient-card-header peach-gradient">
+											<h2 class="h2-responsive mb-2">Title of the news</h2>
+										</div>
+											<img src="images/playa-totoritas/item2.jpg" alt=""/>
+									</div>
+									<div className="item1">
+										<div class="view gradient-card-header peach-gradient">
+											<h2 class="h2-responsive mb-2">Title of the news</h2>
+										</div>
+											<img src="images/playa-totoritas/item3.jpg" alt=""/>
+									</div>
+									<div className="item1">
+										<div class="view gradient-card-header peach-gradient">
+											<h2 class="h2-responsive mb-2">Title of the news</h2>
+										</div>
+											<img src="images/playa-totoritas/item4.jpg" alt=""/>
+									</div>
+								</div>
+							</div>
+						</div>
 					</ModalComponent>
 			</div>
         );

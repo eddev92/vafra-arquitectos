@@ -18,8 +18,8 @@ class App extends Component {
        <OurVafraComponent />
        <OurServicesComponent />
        <SellsComponent />
-       <GaleryComponent />
        <OurTeamComponent />
+       <GaleryComponent />
        <FooterComponent />
       </div>
     );

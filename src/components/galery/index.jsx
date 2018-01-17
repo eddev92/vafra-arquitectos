@@ -42,7 +42,7 @@ export default class GaleryComponent extends Component {
 					<div className="item">
 						<div className="work_item">
 							<div className="work_img">
-								<img src="images/residencial-tulipanes/fotos/portada.jpg" alt="" />
+								<img src="images/terrazas-ampliacion/terraza1.jpg" alt="" />
 								<a className="zoom" href="images/works/3.jpg" rel="prettyPhoto[portfolio1]" ></a>
 							</div>
 							<div className="work_description">
@@ -72,7 +72,7 @@ export default class GaleryComponent extends Component {
 					<div className="item">
 						<div className="work_item">
 							<div className="work_img">
-								<img src="images/works/5.jpg" alt="" />
+								<img src="images/referenciales/ref1.jpg" alt="" />
 								<a className="zoom" href="images/works/5.jpg" rel="prettyPhoto[portfolio1]" ></a>
 							</div>
 							<div className="work_description">
@@ -87,7 +87,7 @@ export default class GaleryComponent extends Component {
 					<div className="item">
 						<div className="work_item">
 							<div className="work_img">
-								<img src="images/works/6.jpg" alt="" />
+								<img src="images/referenciales/ref2.jpg" alt="" />
 								<a className="zoom" href="images/works/6.jpg" rel="prettyPhoto[portfolio1]" ></a>
 							</div>
 							<div className="work_description">
@@ -102,7 +102,7 @@ export default class GaleryComponent extends Component {
 					<div className="item">
 						<div className="work_item">
 							<div className="work_img">
-								<img src="images/works/7.jpg" alt="" />
+								<img src="images/referenciales/ref3.jpg" alt="" />
 								<a className="zoom" href="images/works/7.jpg" rel="prettyPhoto[portfolio1]" ></a>
 							</div>
 							<div className="work_description">

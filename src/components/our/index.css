@@ -5,3 +5,6 @@ ul#myTab li a{
 #myTabContent p {
     color: black;
 }
+#about ul{
+    text-align: left;
+}

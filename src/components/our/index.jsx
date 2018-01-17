@@ -11,7 +11,13 @@ export default class OurVafraComponent extends Component {
 						<div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 margbot30">
 							<a className="services_item" href="javascript:void(0);" >
 								<p>Historia</p>
-								<span>Historia VAFRA</span>
+								<span>Somos un grupo arquitectos  peruanos que viene generando valor en proyectos de construcción e inmobiliarios, mediante el desarrollo de servicios confiables, innovadores y versátiles que garantizan la rentabilidad de nuestros clientes y sus accionistas en todas sus unidades de negocio.</span>
+							<ul>
+								<li>° Diseño</li>
+								<li>° Gestión de Proyectos</li>
+								<li>° Supervisión de Proyectos</li>
+								<li>° Desarrollo Inmobiliario</li>
+							</ul>
 							</a>
 						</div>
 						<div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 margbot30">
