@@ -15,7 +15,7 @@ export default class SellsComponent extends Component {
 							<a className="btn btn-active" data-toggle="modal" data-target={`#${ID_MODAL_VENTA}`}><span data-hover="inmobiliarios">Ver más</span></a>
 						</div>
 						<div className="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
-							<img className="ipad_img1" src="images/img1.png" alt="" />
+							<img className="ipad_img1" src="images/venta1.jpg" alt="" />
 						</div>
 					</div>
 				</div>
@@ -59,6 +59,7 @@ export default class SellsComponent extends Component {
 								</div>
 									<img src="images/playa-totoritas/item4.jpg" alt=""/>
 							</div>
+							<button className="btn btn-default" style={{background: '#121035', margin: 0}}><a  target="_blank" href="http://www.adondevivir.com/propiedades/casa-de-playa-en-lindo-condominio-totoritas-video-50447619.html">Ver enlace</a></button>
 						</div>
 					</div>
 					<div class="tab-pane fade" id="panel2" role="tabPanel">
@@ -68,25 +69,25 @@ export default class SellsComponent extends Component {
 								<div class="view gradient-card-header peach-gradient">
 									<h2 class="h2-responsive mb-2">Title of the news</h2>
 								</div>
-									<img src="images/playa-totoritas/portada.jpg" alt=""/>
+									<img src="images/residencial-tulipanes/fotos/portada.jpg" alt=""/>
 							</div>
 							<div className="item1">
 								<div class="view gradient-card-header peach-gradient">
 									<h2 class="h2-responsive mb-2">Title of the news</h2>
 								</div>
-									<img src="images/playa-totoritas/item2.jpg" alt=""/>
+									<img src="images/residencial-tulipanes/fotos/item2.jpg" alt=""/>
 							</div>
 							<div className="item1">
 								<div class="view gradient-card-header peach-gradient">
 									<h2 class="h2-responsive mb-2">Title of the news</h2>
 								</div>
-									<img src="images/playa-totoritas/item3.jpg" alt=""/>
+									<img src="images/residencial-tulipanes/fotos/item3.jpg" alt=""/>
 							</div>
 							<div className="item1">
 								<div class="view gradient-card-header peach-gradient">
 									<h2 class="h2-responsive mb-2">Title of the news</h2>
 								</div>
-									<img src="images/playa-totoritas/item4.jpg" alt=""/>
+									<img src="images/residencial-tulipanes/fotos/item4.jpg" alt=""/>
 							</div>
 						</div>
 					</div>
@@ -97,25 +98,7 @@ export default class SellsComponent extends Component {
 									<div class="view gradient-card-header peach-gradient">
 										<h2 class="h2-responsive mb-2">Title of the news</h2>
 									</div>
-										<img src="images/playa-totoritas/portada.jpg" alt=""/>
-									</div>
-									<div className="item1">
-										<div class="view gradient-card-header peach-gradient">
-											<h2 class="h2-responsive mb-2">Title of the news</h2>
-										</div>
-											<img src="images/playa-totoritas/item2.jpg" alt=""/>
-									</div>
-									<div className="item1">
-										<div class="view gradient-card-header peach-gradient">
-											<h2 class="h2-responsive mb-2">Title of the news</h2>
-										</div>
-											<img src="images/playa-totoritas/item3.jpg" alt=""/>
-									</div>
-									<div className="item1">
-										<div class="view gradient-card-header peach-gradient">
-											<h2 class="h2-responsive mb-2">Title of the news</h2>
-										</div>
-											<img src="images/playa-totoritas/item4.jpg" alt=""/>
+										<img src="images/residencial-vafra/portada.jpg" alt=""/>
 									</div>
 								</div>
 							</div>

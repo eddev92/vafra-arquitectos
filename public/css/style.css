@@ -277,7 +277,17 @@ header {
 	background-color:#fff;
 	box-shadow:0 2px 3px rgba(0,0,0,0.1);
 }
-
+.menu_block2{
+	position:fixed;
+	z-index:999;
+	left:0;
+	top:0;
+	right:0;
+	height:80px;
+	width:100%;
+	background-color:#fff;
+	box-shadow:0 2px 3px rgba(0,0,0,0.1);
+}
 .navmenu ul li {
 	position:relative;
 	display:inline-block;
@@ -451,6 +461,7 @@ header {
 	font-weight:300;
 	font-size:14px;
 	color:#666;
+	text-align: justify;
 }
 
 
@@ -543,9 +554,9 @@ header {
 	transition: transform 0.2s ease-in-out; 
 	-webkit-transition: -webkit-transform 0.2s ease-in-out;
 }
-.cleancode_block .nav-tabs li a.i1 i {background-image:url(../images/i1.png);}
+.cleancode_block .nav-tabs li a.i1 i {background-image:url(../images/i3.png);}
 .cleancode_block .nav-tabs li a.i2 i {background-image:url(../images/i2.png);}
-.cleancode_block .nav-tabs li a.i3 i {background-image:url(../images/i3.png);}
+.cleancode_block .nav-tabs li a.i3 i {background-image:url(../images/i1.png);}
 .cleancode_block .nav-tabs li a.i4 i {background-image:url(../images/i4.png);}
 .cleancode_block .nav-tabs li a.i5 i {background-image:url(../images/i5.png);}
 .cleancode_block .nav-tabs li a.i6 i {background-image:url(../images/i6.png);}
@@ -642,7 +653,11 @@ header {
 	transform: translateY(-100%);
 }
 
-.purpose_block .ipad_img1 {margin-top:-116px;}
+.purpose_block .ipad_img1 {
+	margin-top: 0;
+	margin-bottom: 70px;
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
 
 
 
@@ -1170,7 +1185,7 @@ footer h4 {color:#fff;}
 	display:block;
 	width:50px;
 	height:50px;
-	border:1px solid #242424;
+	/* border:1px solid #242424; */
 	text-align:center;
 	line-height:46px;
 	font-size:23px;

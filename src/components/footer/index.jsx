@@ -23,8 +23,8 @@ export default class FooterComponent extends Component {
                                     </ul>
                                     <br />
                                     <ul class="social">
-                                        <li><a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="javascript:void(0);" ><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://www.facebook.com/Vafraarquitectos/" target="_blank"><img src="images/fb_logo.png" alt="" /></a></li>
+                                        {/* <li><a href="javascript:void(0);" ><i className="fa fa-facebook"></i></a></li> */}
                                     </ul>
                                 </div>
                             </div>
@@ -34,6 +34,7 @@ export default class FooterComponent extends Component {
                         <div class="col-lg-6 col-md-6 col-sm-6 foot_about_block mails">
                             <h4><b>Informes</b></h4>
                             <h5>Correos:</h5>
+                            <p>informes@vafraarquitectos.pe</p>
                             <p>palvarado.vafra@gmail.com</p>
                             <p>scandela.vafra@gmail.com</p>
                             <a className="btn btn-active" id="boton-contactar-footer" data-toggle="modal" data-target={`#${ID_MODAL_CONTACTOS}`}><span data-hover="inmobiliarios">Contactarnos</span></a>

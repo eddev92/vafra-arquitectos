@@ -4,7 +4,7 @@ import './index.css';
 export default class ModalComponent extends Component {
   render() {
       return (
-        <div className="modal fade" id={this.props.id} tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal fade" id={this.props.id} tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style={{zIndex: 9999999}}>
         <div className={(this.props.top) ? "modal-dialog modal-lg mt80" : "modal-dialog"} role="document">
             <div className="modal-content">
                 <div className="modal-header">
