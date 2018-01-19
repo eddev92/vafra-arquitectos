@@ -9,3 +9,21 @@ font-size: 1.6em;
 .mt80{
     margin-top: 10px;
 }
+.isLarge{
+    width: 100%;
+    /* position: fixed; */
+}
+.modal-dialog{
+    left: 0 !important;
+}
+.modal-body{
+    padding: 0 !important;
+    margin-top: -28px !important;
+}
+.close{
+    font-size: 65px !important;
+    color: black !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: -1px !important;
+}

@@ -18,7 +18,7 @@ class App extends Component {
        <OurVafraComponent />
        <OurServicesComponent />
        <SellsComponent />
-       <OurTeamComponent />
+       {/* <OurTeamComponent /> */}
        <GaleryComponent />
        <FooterComponent />
       </div>

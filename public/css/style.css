@@ -183,7 +183,7 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 }
-.btn:focus, .btn:hover {color:#333; border-color:#333;}
+.btn:focus, .btn:hover {color:#333}
 
 .btn-active {background-color:#1c1c1c; color:#fff; border-color:#1c1c1c;}
 .btn-active:hover {color:#fff;}
@@ -548,7 +548,7 @@ header {
 	height:60px;
 	margin:0 auto;
 	background-repeat:no-repeat;
-	background-position:0 -121px;
+	background-position:0 -2px;
 	background-size:100% auto;
 	-webkit-background-size:100% auto;
 	transition: transform 0.2s ease-in-out; 
@@ -620,7 +620,7 @@ header {
 	font-size:17px;
 	color:#666;
 }
-.purpose_block .btn {margin-top:30px; margin-right:16px;}
+/* .purpose_block .btn {margin-top:30px; margin-right:16px;} */
 .purpose_block .btn-active {overflow:hidden;}
 .purpose_block .btn-active span:before {
 	content: attr(data-hover);
@@ -1702,7 +1702,7 @@ input[type="color"]:focus {
 	.cleancode_block .nav-tabs li a {width:136px; height:136px; padding-top:35px;}
 	.cleancode_block .nav-tabs li a i {width:45px; height:45px;}
 	.cleancode_block .nav-tabs li a span {font-size:16px;}
-	.cleancode_block .nav-tabs li a i {background-position:0 -45px;}
+	.cleancode_block .nav-tabs li a i {background-position:0 -2px;}
 	.nav-tabs li a:hover i {background-position:0 -90px; transform:translateY(-5px); -o-transform:translateY(-5px); -ms-transform:translateY(-5px); -webkit-transform:translateY(-5px);}
 	.nav-tabs li.active a i {background-position:0 0; transform:translateY(-10px); -o-transform:translateY(-10px); -ms-transform:translateY(-10px); -webkit-transform:translateY(-10px);}
 	
@@ -1774,9 +1774,16 @@ input[type="color"]:focus {
 /* __________ Index __________ */
 	.cleancode_block p.title {font-size:60px; line-height:60px;}
 	.cleancode_block span {font-size:20px; line-height:24px;}
-	.cleancode_block .nav-tabs li a {width:100px; height:100px; padding-top:24px;}
+	.cleancode_block .nav-tabs li a {
+		width: 100px;
+		height: 115px;
+		padding-top: 24px;
+	}
 	.cleancode_block .nav-tabs li a i {width:45px; height:45px;}
-	.cleancode_block .nav-tabs li a span {font-size:13px;}
+	.cleancode_block .nav-tabs li a span{
+		font-size:13px;
+		border-radius: 0;
+	}
 	.cleancode_block .nav-tabs li a i {background-position:0 -45px;}
 	.nav-tabs li a:hover i {background-position:0 -90px; transform:translateY(-5px); -o-transform:translateY(-5px); -ms-transform:translateY(-5px); -webkit-transform:translateY(-5px);}
 	.nav-tabs li.active a i {background-position:0 0; transform:translateY(-10px); -o-transform:translateY(-10px); -ms-transform:translateY(-10px); -webkit-transform:translateY(-10px);}

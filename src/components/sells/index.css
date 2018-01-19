@@ -11,3 +11,49 @@
     margin: auto 90px;
     margin-top: -20px;
 }
+.logoVenta{
+    right: 19px;
+    position: absolute;
+    z-index: 99;
+}
+.logoVenta img{
+    height: 272px;
+    /* float: right; */
+    right: 100%;
+}
+.depas{
+    width: 50%;
+    border: none;
+    z-index: 99999999999;
+    margin-top: -169px;
+    position: absolute;
+    right: 27%;
+    
+}
+.depas button{
+    height: 20px;
+}
+.fondo-item{
+    padding: 0;
+}
+.depas button{
+    padding: 10px 13px 27px;
+}
+.depa{
+    box-shadow: 2px 3px 3px 0 rgba(0, 0, 0, 0.75);
+    height: auto;
+    background: white;
+    width: 99%;
+    border: none;
+    z-index: 99999999999;
+    top: 0%;
+    position: absolute;
+    right: 0;
+}
+.fondo{
+    width: 100%;
+    margin: 0;
+}
+.fondo img{
+    padding: 0;
+}

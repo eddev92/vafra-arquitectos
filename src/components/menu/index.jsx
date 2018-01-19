@@ -22,7 +22,7 @@ export class MenuComponent extends Component {
 								<li className="scroll_btn"><a href="#about" >Nosotros</a></li>
 								<li className="scroll_btn"><a href="#projects" >Servicios</a></li>
 								<li className="scroll_btn"><a href="#sells" >Ventas</a></li>
-								<li className="scroll_btn"><a href="#gallery" >Galería</a></li>
+								<li className="scroll_btn"><a href="#gallery" >Proyectos</a></li>
 								{/*<li className="scroll_btn"><a href="#news" >News</a></li>*/}
 								<li className="scroll_btn last"><a href="#contacts" data-toggle="modal" data-target={`#${ID_MODAL_CONTACTOS}`}>Contactos</a></li>
 

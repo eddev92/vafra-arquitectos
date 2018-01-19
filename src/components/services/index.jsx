@@ -53,9 +53,9 @@ export default class OurServicesComponent extends Component {
 							</div>
 					</div>
 					<ul id="myTab" className="nav nav-tabs row">
-						<li className="active col-md-4"><a className="i1" href="#tab1" data-toggle="tab" ><i></i><span>Diseño</span></a></li>
-						<li className="col-md-4"><a className="i2" href="#tab2" data-toggle="tab" ><i></i><span>Proyectos</span></a></li>
-						<li className="col-md-4"><a className="i3" href="#tab3" data-toggle="tab" ><i></i><span>Construcción</span></a></li>
+						<li className="active col-xs-12 col-sm-4 col-md-4"><a className="i1" href="#tab1" data-toggle="tab" ><i></i><span>Diseño</span></a></li>
+						<li className="col-xs-12 col-sm-4 col-md-4"><a className="i2" href="#tab2" data-toggle="tab" ><i></i><span>Proyectos</span></a></li>
+						<li className="col-xs-12 col-sm-4 col-md-4"><a className="i3" href="#tab3" data-toggle="tab" ><i></i><span>Construcción</span></a></li>
 						
 					</ul>
 				</div>
