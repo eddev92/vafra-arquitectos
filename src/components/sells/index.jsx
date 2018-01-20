@@ -15,7 +15,10 @@ export default class SellsComponent extends Component {
 	state= {
 		departamentos: [],
 		depaSelected: false,
-		depaSelectedView: {}
+		depaSelectedView: {},
+		verDetalle: false,
+		verDepa: false,
+		verUbicacion: false
 	}
 	componentDidMount() {
 		this.loadDepartamentos();
@@ -154,6 +157,9 @@ export default class SellsComponent extends Component {
 		this.setState({ depaSelected: !depaSelected});
 	}
 	infoDepa = (depa) => (
+		// if(verDetalle === true) {
+		// 	this.setState({ verDetalle: false })
+		// }
 		<section className="section infoDepa">
 			<div className="card pricing-card">
                 <div className="price header blue">
@@ -181,7 +187,7 @@ export default class SellsComponent extends Component {
                         <li>
                             <p style={{textAlign: 'left', padding: '0 30px'}} className="isSelled">- Piso porcelanato tipo madera en sal, comedor y dormitorios.<br/>
 							- Piso porcelanato en baños y cocinas<br/>- Tableros de granito en cocinas y baños.<br />- Instalaciones de gas en cocina y lavanderías.<br/>
-							- Instalaciones sanitarias de tuberías de polipropileno.<br/>- Ascensor de ultima generación SCHINDLER.<br/>- Jardinería sostenible (jerdines verticales).</p>
+							- Instalaciones sanitarias de tuberías de polipropileno.<br/>- Ascensor de ultima generación SCHINDLER.<br/>- Jardinería sostenible (jardines verticales).</p>
                         </li>
                     </ul>
 					<button onClick={this.homeDepa} className="btn btn-primary waves-effect waves-light"><a>Volver</a></button>
@@ -190,9 +196,16 @@ export default class SellsComponent extends Component {
             </div>
 		</section>
 	)
-	
+	viewDetails = () => {
+		const {verDetalle, verUbicacion} = this.state;
+		this.setState({ verDetalle: !verDetalle, verUbicacion: !verUbicacion });
+	}
+	viewApartments = () => {
+		const {verDepa} = this.state;
+		this.setState({ verDepa: !verDepa });
+	}
   render() {
-	  const {depaSelected, depaSelectedView} = this.state;
+	  const {depaSelected, depaSelectedView, verDepa, verDetalle, verUbicacion} = this.state;
 
         return (
             <div className="purpose_block" id="sells">
@@ -212,17 +225,25 @@ export default class SellsComponent extends Component {
 				<div className="residencial-vafra">
 							<div className="item1" style={{marginTop: 30}}>
 									<div className="row fondo">
-										<div className={(depaSelected) ? 'col-md-6 fondo-item isInfo' : 'col-md-6 fondo-item'}>
+											{(verUbicacion) && <img src="images/residencial-vafra/ubicacion.jpg" className="imgUbicacion" />}
+										
+										{(verDetalle) ? <div className="col-md-6 fondo-item isDetail">
 											{(depaSelected) ? this.infoDepa(depaSelectedView) : <img src="images/residencial-vafra/render1.png" alt=""/>}
-										</div>
+										</div> :<div className={(depaSelected) ? 'col-md-6 fondo-item isInfo' : 'col-md-6 fondo-item'}>
+									
+									{(depaSelected) ? this.infoDepa(depaSelectedView) : <img src="images/residencial-vafra/render1.png" alt=""/>}
+								</div>}
 										<div className="col-md-6 fondo-item">
 											<img src="images/residencial-vafra/render2.png" alt=""/>
 												<div className="depa">
 													{this.renderDepartamentoSelected()}
 												</div>
-										<div className="depas">
+												
+										<button onClick={this.viewDetails} className="btn btn-primary waves-effect waves-light viewDetails"><a>{verDetalle ? 'Cerrar detalles' : 'Ver detalles'}</a></button>
+										<button onClick={this.viewApartments} className="btn btn-primary waves-effect waves-light viewAparments"><a>Ver departamentos</a></button>
+										{(verDepa) && <div className="depas">
 											{this.renderButtons()}
-										</div>
+										</div>}
 										</div>
 									</div>
 								</div>
