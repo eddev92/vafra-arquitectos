@@ -26,4 +26,8 @@ font-size: 1.6em;
     position: absolute !important;
     right: 0 !important;
     top: -1px !important;
+    /* opacity: 0 !important; */
 }
+/* button.close{
+    background: white;
+} */

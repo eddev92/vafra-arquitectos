@@ -12,7 +12,7 @@ export class MenuComponent extends Component {
 				<div className="container clearfix">
 
 					<div className="logo pull-left">
-						<img src="images/logo.png" alt=""/>
+						<img src="images/blanco.jpg" alt=""/>
 					</div>
 
 					<div className="pull-right">

@@ -70,8 +70,8 @@ export default class SellsComponent extends Component {
 			{
 				depaId: 'duplex_402',
 				img: 'images/residencial-vafra/402.jpg',
-				areaConstruida: 0,
-				areaOcupada: 0,
+				areaConstruida: 100.56,
+				areaOcupada: 161.46,
 				vendido: false,
 				tipo: 'DUPLEX',
 				conAzotea: true
@@ -141,12 +141,59 @@ export default class SellsComponent extends Component {
 		if (depaSelected) {
 			return <img src={depaSelectedView.img} alt=""/>
 		} else {
-			return <h1>No se ha seleccionado ningun departamento</h1>
+			return <div className="logoVenta">
+			<img src="images/logo.png" />
+			<div className="message">
+			<p>UN LUGAR PENSADO PARA LA FAMILIA...</p></div>
+		</div>
 		}
 	
 	}
+	homeDepa = () => {
+		const {depaSelected} = this.state;
+		this.setState({ depaSelected: !depaSelected});
+	}
+	infoDepa = (depa) => (
+		<section className="section infoDepa">
+			<div className="card pricing-card">
+                <div className="price header blue">
+                    <div className="version">
+                        <h5>MULTIFAMILIAR VAFRA</h5>
+                    </div>
+                </div>
+                <div className="card-body striped">
+                    <ul>
+                        <li>
+                            <p className="mt-1"><i className="fa fa-check"></i>Área construida: {depa.areaConstruida} m2</p>
+                        </li>
+                        <li>
+                            <p><i className="fa fa-check"></i>Área ocupada: {depa.areaOcupada} m2</p>
+                        </li>
+                        <li>
+                            <p className={depa.vendido ? 'isSelled' : ''}><i className="fa fa-times"></i>Disponible: {depa.vendido ? 'VENDIDO' : 'NO VENDIDO'}</p>
+                        </li>
+                        <li>
+                            <p><i className="fa fa-times"></i>Tipo: {depa.tipo}</p>
+                        </li>
+                        <li>
+                            <p><i className="fa fa-times"></i>Con azotea: {depa.conAzotea ? 'SI' : 'NO'}</p>
+                        </li>
+                        <li>
+                            <p style={{textAlign: 'left', padding: '0 30px'}} className="isSelled">- Piso porcelanato tipo madera en sal, comedor y dormitorios.<br/>
+							- Piso porcelanato en baños y cocinas<br/>- Tableros de granito en cocinas y baños.<br />- Instalaciones de gas en cocina y lavanderías.<br/>
+							- Instalaciones sanitarias de tuberías de polipropileno.<br/>- Ascensor de ultima generación SCHINDLER.<br/>- Jardinería sostenible (jerdines verticales).</p>
+                        </li>
+                    </ul>
+					<button onClick={this.homeDepa} className="btn btn-primary waves-effect waves-light"><a>Volver</a></button>
+                </div>
+
+            </div>
+		</section>
+	)
 	
   render() {
+	  const {depaSelected, depaSelectedView} = this.state;
+
         return (
             <div className="purpose_block" id="sells">
 				<div className="container">
@@ -164,34 +211,20 @@ export default class SellsComponent extends Component {
 				<ModalComponent title="Residencial multifamiliar Vafra" id={ID_MODAL_VENTA} top={true} isLarge={true}>
 				<div className="residencial-vafra">
 							<div className="item1" style={{marginTop: 30}}>
-									{/* <div class="view gradient-card-header peach-gradient">
-										<h2 class="h2-responsive mb-2">Residencial multifamiliar Vafra</h2>
-									</div> */}
-									{/* <div className="logoVenta">
-										<img src="images/logo.png" />
-									</div> */}
 									<div className="row fondo">
-										<div className="col-md-6 fondo-item">
-											<img src="images/residencial-vafra/render1.png" alt=""/>
+										<div className={(depaSelected) ? 'col-md-6 fondo-item isInfo' : 'col-md-6 fondo-item'}>
+											{(depaSelected) ? this.infoDepa(depaSelectedView) : <img src="images/residencial-vafra/render1.png" alt=""/>}
 										</div>
 										<div className="col-md-6 fondo-item">
 											<img src="images/residencial-vafra/render2.png" alt=""/>
-											<div className="depa">
-											{this.renderDepartamentoSelected()}
-												{/* <img src="images/residencial-vafra/101-flat.jpg" alt=""/> */}
-											</div>
-											<div className="depas">
+												<div className="depa">
+													{this.renderDepartamentoSelected()}
+												</div>
+										<div className="depas">
 											{this.renderButtons()}
-										{/* <button className="btn btn-success waves-effect waves-light"><a>101</a></button>
-										<button className="btn btn-info waves-effect waves-light">102</button>
-										<button className="btn btn-warning waves-effect waves-light">201- 301</button>
-										<button className="btn btn-secondary waves-effect waves-light">202</button>
-										<button className="btn btn-danger waves-effect waves-light">401</button>
-										<button className="btn btn-primary waves-effect waves-light">402 + Azotea</button> */}
-									</div>
+										</div>
 										</div>
 									</div>
-									
 								</div>
 							</div>
 				{/* <ul class="nav nav-tabs nav-justified">
